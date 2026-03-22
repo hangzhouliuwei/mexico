@@ -1,0 +1,39 @@
+
+platform :ios, '13.0'
+
+target 'LoanPlus' do
+  
+  use_frameworks!
+  
+  pod 'SnapKit'
+  pod 'Alamofire'
+  pod 'IQKeyboardManagerSwift','7.1.1'
+  pod 'SwiftyJSON'
+  pod 'MJRefresh'
+  pod 'ObjectMapper'
+  #pod 'HandyJSON'
+  pod 'Kingfisher'
+  pod 'FSPagerView'
+  pod 'YYText'
+  pod 'KeenCodeUnit'
+  
+  pod 'JXSegmentedView'
+  pod 'JXCategoryView'
+  
+  pod 'JJCarouselView'
+
+  
+  
+  
+  pod 'AAINetwork', :http => 'https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-libraries/AAINetwork/AAINetwork-V1.0.2.tar.bz2', type: :tbz 
+  pod 'AAILiveness', :http => 'https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-liveness-detection/2.1.1/iOS-Liveness-SDK-V2.1.1.tar.bz2', type: :tbz
+
+
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+      end
+    end
+  end
+end

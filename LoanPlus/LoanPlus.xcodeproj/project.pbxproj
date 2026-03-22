@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011247392CF5D6150033AACB /* LoginCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011247382CF5D6150033AACB /* LoginCodeVC.swift */; };
+		01124B3E2CF6F9B90033AACB /* CaptchaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01124B3D2CF6F9B90033AACB /* CaptchaButton.swift */; };
+		01E50A0E2CF4781500DD3ED4 /* LPTrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E50A0D2CF4781500DD3ED4 /* LPTrackManager.swift */; };
+		01E50A102CF479E500DD3ED4 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E50A0F2CF479E500DD3ED4 /* DeviceManager.swift */; };
+		01E50A122CF47A9600DD3ED4 /* KeyChainTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E50A112CF47A9600DD3ED4 /* KeyChainTools.swift */; };
+		01E50A142CF48A8E00DD3ED4 /* LPLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E50A132CF48A8E00DD3ED4 /* LPLocationManager.swift */; };
+		01E50A162CF496B400DD3ED4 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E50A152CF496B400DD3ED4 /* UserManager.swift */; };
+		01E50A1A2CF5C33800DD3ED4 /* PhoneNoInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E50A192CF5C33800DD3ED4 /* PhoneNoInputView.swift */; };
+		31A9D3922CFEA76F00F1CDCF /* LoanPlusOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9D3912CFEA76F00F1CDCF /* LoanPlusOrderVC.swift */; };
+		31A9D3942CFEA78000F1CDCF /* LoanPlusOrderChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9D3932CFEA78000F1CDCF /* LoanPlusOrderChildVC.swift */; };
+		31AC242A2CF5B7C400C2D186 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AC24292CF5B7C400C2D186 /* GradientButton.swift */; };
+		31AC242C2CF5BB9600C2D186 /* GradidentLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AC242B2CF5BB9600C2D186 /* GradidentLabel.swift */; };
+		31AC242E2CF5C82F00C2D186 /* HomeLargeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AC242D2CF5C82F00C2D186 /* HomeLargeCardView.swift */; };
+		31AC24322CF5D36D00C2D186 /* HomeLoanMorePlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AC24312CF5D36D00C2D186 /* HomeLoanMorePlusView.swift */; };
+		31AC24372CF7037E00C2D186 /* HomeLoanMorePlusViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AC24352CF7037E00C2D186 /* HomeLoanMorePlusViewCell.swift */; };
+		31C00B312CFEB43B00255E4D /* LoanOerderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C00B302CFEB43B00255E4D /* LoanOerderCell.swift */; };
+		31E40E4C2D0045E500748517 /* ProWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E40E4B2D0045E500748517 /* ProWebViewController.swift */; };
+		31E40E502D004F2000748517 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E40E4F2D004F2000748517 /* HomeVC.swift */; };
+		3F45FA242CF43BC5004F43E6 /* RuteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA142CF43BC5004F43E6 /* RuteManager.swift */; };
+		3F45FA252CF43BC5004F43E6 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA172CF43BC5004F43E6 /* Define.swift */; };
+		3F45FA262CF43BC5004F43E6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA182CF43BC5004F43E6 /* Extension.swift */; };
+		3F45FA272CF43BC5004F43E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA1A2CF43BC5004F43E6 /* AppDelegate.swift */; };
+		3F45FA292CF43BC5004F43E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA222CF43BC5004F43E6 /* ViewController.swift */; };
+		3F45FA2A2CF43BC5004F43E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F45FA1B2CF43BC5004F43E6 /* Assets.xcassets */; };
+		3F45FA2C2CF43BC5004F43E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F45FA1E2CF43BC5004F43E6 /* LaunchScreen.storyboard */; };
+		3F45FA2F2CF43BFC004F43E6 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA2E2CF43BFC004F43E6 /* NavController.swift */; };
+		3F45FA332CF43CDE004F43E6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA322CF43CDE004F43E6 /* TabBarController.swift */; };
+		3F45FA392CF43E15004F43E6 /* ThirdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA382CF43E0A004F43E6 /* ThirdManager.swift */; };
+		3F45FA3B2CF4534C004F43E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA3A2CF4534C004F43E6 /* NetworkManager.swift */; };
+		3F45FA3F2CF4545A004F43E6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA3E2CF4545A004F43E6 /* LoginVC.swift */; };
+		3F45FA412CF4548E004F43E6 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA402CF4548E004F43E6 /* CacheManager.swift */; };
+		3F45FA452CF457C0004F43E6 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA442CF457C0004F43E6 /* Toast.swift */; };
+		3F45FA472CF459DE004F43E6 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45FA462CF459DE004F43E6 /* BaseVC.swift */; };
+		3F52974C2CFEA25400F6032B /* PersonInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F52974B2CFEA25400F6032B /* PersonInfoVC.swift */; };
+		3F52974E2CFEB85600F6032B /* InfoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F52974D2CFEB85600F6032B /* InfoItemView.swift */; };
+		3F5297502CFF0C5400F6032B /* DateAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F52974F2CFF0C5400F6032B /* DateAlert.swift */; };
+		3F5297532CFFF73700F6032B /* JobInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5297522CFFF73700F6032B /* JobInfoVC.swift */; };
+		3F5297552D005BD100F6032B /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5297542D005BCD00F6032B /* Untitled.swift */; };
+		3FD4FB382CF704360097C61C /* SurveyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4FB372CF704360097C61C /* SurveyVC.swift */; };
+		3FD4FB3D2CF71C9B0097C61C /* D-DIN-PRO-600-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4FB3B2CF71C9B0097C61C /* D-DIN-PRO-600-SemiBold.otf */; };
+		3FD4FB3E2CF71C9B0097C61C /* D-DIN-PRO-400-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4FB3A2CF71C9B0097C61C /* D-DIN-PRO-400-Regular.otf */; };
+		3FD4FB3F2CF71C9B0097C61C /* D-DIN-PRO-700-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4FB3C2CF71C9B0097C61C /* D-DIN-PRO-700-Bold.otf */; };
+		3FD4FB442CF963870097C61C /* IDCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4FB432CF963870097C61C /* IDCardVC.swift */; };
+		3FD4FB462CF975360097C61C /* PhotoSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4FB452CF975360097C61C /* PhotoSelector.swift */; };
+		3FD4FB482CF9C6E80097C61C /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4FB472CF9C6E80097C61C /* CustomAlert.swift */; };
+		3FD4FB4C2CFDA5BA0097C61C /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4FB4B2CFDA5BA0097C61C /* IconButton.swift */; };
+		3FD4FB502CFDC2FE0097C61C /* CardInfoAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4FB4F2CFDC2FE0097C61C /* CardInfoAlertVC.swift */; };
+		C913360B2CF4761E0063AF5B /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913360A2CF4761E0063AF5B /* ProductDetailVC.swift */; };
+		C913360D2CF477ED0063AF5B /* ApplyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913360C2CF477ED0063AF5B /* ApplyManager.swift */; };
+		C91336102CF5B1D10063AF5B /* ProductDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913360F2CF5B1D10063AF5B /* ProductDetailCell.swift */; };
+		C91336142CF5B9E90063AF5B /* ProductDetailFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91336132CF5B9E90063AF5B /* ProductDetailFootView.swift */; };
+		C913361A2CF80F6F0063AF5B /* CertBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91336192CF80F6F0063AF5B /* CertBaseVC.swift */; };
+		C99CB6822CFDAFA700D44CAF /* SelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CB6812CFDAFA700D44CAF /* SelectCell.swift */; };
+		C99CB6862CFEE0C400D44CAF /* ContactInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CB6852CFEE0C400D44CAF /* ContactInfoVC.swift */; };
+		C99CB6882CFEE22F00D44CAF /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CB6872CFEE22F00D44CAF /* ContactCell.swift */; };
+		C9B4A65E2CF9A81C0012B8F8 /* BankInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B4A65D2CF9A81C0012B8F8 /* BankInfoVC.swift */; };
+		C9C442782CFD85ED00B04541 /* ClabeAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C442772CFD85ED00B04541 /* ClabeAlertView.swift */; };
+		C9C4427A2CFDA77400B04541 /* SingleSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C442792CFDA77400B04541 /* SingleSelectView.swift */; };
+		C9C505E12D004F1C0056333C /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C505E02D004F1C0056333C /* SettingVC.swift */; };
+		C9C505E52D0050050056333C /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C505E42D0050050056333C /* UserVC.swift */; };
+		C9C505E72D0059AD0056333C /* LogOutAlertV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C505E62D0059AD0056333C /* LogOutAlertV.swift */; };
+		C9C505E92D006B190056333C /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C505E82D006B190056333C /* appicon.png */; };
+		C9C505EB2D006B290056333C /* launch_img.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C505EA2D006B290056333C /* launch_img.png */; };
+		C9C505ED2D006F340056333C /* BankConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C505EC2D006F340056333C /* BankConfirmView.swift */; };
+		C9F6083A2CF878B200511E71 /* StayAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F608392CF878B200511E71 /* StayAlertView.swift */; };
+		DD4436F0B24942FB9B00F93D /* Pods_LoanPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C53B2E9846A486A7F37FF0 /* Pods_LoanPlus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011247382CF5D6150033AACB /* LoginCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCodeVC.swift; sourceTree = "<group>"; };
+		01124B3D2CF6F9B90033AACB /* CaptchaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptchaButton.swift; sourceTree = "<group>"; };
+		01E50A0D2CF4781500DD3ED4 /* LPTrackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPTrackManager.swift; sourceTree = "<group>"; };
+		01E50A0F2CF479E500DD3ED4 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		01E50A112CF47A9600DD3ED4 /* KeyChainTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainTools.swift; sourceTree = "<group>"; };
+		01E50A132CF48A8E00DD3ED4 /* LPLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLocationManager.swift; sourceTree = "<group>"; };
+		01E50A152CF496B400DD3ED4 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		01E50A192CF5C33800DD3ED4 /* PhoneNoInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNoInputView.swift; sourceTree = "<group>"; };
+		31A9D3912CFEA76F00F1CDCF /* LoanPlusOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanPlusOrderVC.swift; sourceTree = "<group>"; };
+		31A9D3932CFEA78000F1CDCF /* LoanPlusOrderChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanPlusOrderChildVC.swift; sourceTree = "<group>"; };
+		31AC24292CF5B7C400C2D186 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		31AC242B2CF5BB9600C2D186 /* GradidentLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradidentLabel.swift; sourceTree = "<group>"; };
+		31AC242D2CF5C82F00C2D186 /* HomeLargeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLargeCardView.swift; sourceTree = "<group>"; };
+		31AC24312CF5D36D00C2D186 /* HomeLoanMorePlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLoanMorePlusView.swift; sourceTree = "<group>"; };
+		31AC24352CF7037E00C2D186 /* HomeLoanMorePlusViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLoanMorePlusViewCell.swift; sourceTree = "<group>"; };
+		31C00B302CFEB43B00255E4D /* LoanOerderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanOerderCell.swift; sourceTree = "<group>"; };
+		31E40E4B2D0045E500748517 /* ProWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProWebViewController.swift; sourceTree = "<group>"; };
+		31E40E4F2D004F2000748517 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		3A890D7412EAD651FC88DB87 /* Pods-LoanPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanPlus.debug.xcconfig"; path = "Target Support Files/Pods-LoanPlus/Pods-LoanPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		3F45F9D72CF42211004F43E6 /* LoanPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F45FA142CF43BC5004F43E6 /* RuteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuteManager.swift; sourceTree = "<group>"; };
+		3F45FA172CF43BC5004F43E6 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		3F45FA182CF43BC5004F43E6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3F45FA1A2CF43BC5004F43E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F45FA1B2CF43BC5004F43E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F45FA1C2CF43BC5004F43E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F45FA1D2CF43BC5004F43E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F45FA222CF43BC5004F43E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F45FA2E2CF43BFC004F43E6 /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		3F45FA322CF43CDE004F43E6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		3F45FA382CF43E0A004F43E6 /* ThirdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdManager.swift; sourceTree = "<group>"; };
+		3F45FA3A2CF4534C004F43E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3F45FA3E2CF4545A004F43E6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		3F45FA402CF4548E004F43E6 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		3F45FA442CF457C0004F43E6 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		3F45FA462CF459DE004F43E6 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		3F52974B2CFEA25400F6032B /* PersonInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoVC.swift; sourceTree = "<group>"; };
+		3F52974D2CFEB85600F6032B /* InfoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoItemView.swift; sourceTree = "<group>"; };
+		3F52974F2CFF0C5400F6032B /* DateAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAlert.swift; sourceTree = "<group>"; };
+		3F5297522CFFF73700F6032B /* JobInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobInfoVC.swift; sourceTree = "<group>"; };
+		3F5297542D005BCD00F6032B /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		3FD4FB372CF704360097C61C /* SurveyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyVC.swift; sourceTree = "<group>"; };
+		3FD4FB3A2CF71C9B0097C61C /* D-DIN-PRO-400-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DIN-PRO-400-Regular.otf"; sourceTree = "<group>"; };
+		3FD4FB3B2CF71C9B0097C61C /* D-DIN-PRO-600-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DIN-PRO-600-SemiBold.otf"; sourceTree = "<group>"; };
+		3FD4FB3C2CF71C9B0097C61C /* D-DIN-PRO-700-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DIN-PRO-700-Bold.otf"; sourceTree = "<group>"; };
+		3FD4FB432CF963870097C61C /* IDCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDCardVC.swift; sourceTree = "<group>"; };
+		3FD4FB452CF975360097C61C /* PhotoSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelector.swift; sourceTree = "<group>"; };
+		3FD4FB472CF9C6E80097C61C /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		3FD4FB4B2CFDA5BA0097C61C /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		3FD4FB4F2CFDC2FE0097C61C /* CardInfoAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoAlertVC.swift; sourceTree = "<group>"; };
+		3FD4FB522CFE01110097C61C /* LoanPlus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoanPlus-Bridging-Header.h"; sourceTree = "<group>"; };
+		63C53B2E9846A486A7F37FF0 /* Pods_LoanPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoanPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A600A698C8D6637BC95C352A /* Pods-LoanPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanPlus.release.xcconfig"; path = "Target Support Files/Pods-LoanPlus/Pods-LoanPlus.release.xcconfig"; sourceTree = "<group>"; };
+		C913360A2CF4761E0063AF5B /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		C913360C2CF477ED0063AF5B /* ApplyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyManager.swift; sourceTree = "<group>"; };
+		C913360F2CF5B1D10063AF5B /* ProductDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailCell.swift; sourceTree = "<group>"; };
+		C91336132CF5B9E90063AF5B /* ProductDetailFootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailFootView.swift; sourceTree = "<group>"; };
+		C91336192CF80F6F0063AF5B /* CertBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertBaseVC.swift; sourceTree = "<group>"; };
+		C99CB6812CFDAFA700D44CAF /* SelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCell.swift; sourceTree = "<group>"; };
+		C99CB6852CFEE0C400D44CAF /* ContactInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoVC.swift; sourceTree = "<group>"; };
+		C99CB6872CFEE22F00D44CAF /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		C9B4A65D2CF9A81C0012B8F8 /* BankInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankInfoVC.swift; sourceTree = "<group>"; };
+		C9C442772CFD85ED00B04541 /* ClabeAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClabeAlertView.swift; sourceTree = "<group>"; };
+		C9C442792CFDA77400B04541 /* SingleSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSelectView.swift; sourceTree = "<group>"; };
+		C9C505E02D004F1C0056333C /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		C9C505E42D0050050056333C /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		C9C505E62D0059AD0056333C /* LogOutAlertV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutAlertV.swift; sourceTree = "<group>"; };
+		C9C505E82D006B190056333C /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		C9C505EA2D006B290056333C /* launch_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_img.png; sourceTree = "<group>"; };
+		C9C505EC2D006F340056333C /* BankConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankConfirmView.swift; sourceTree = "<group>"; };
+		C9C505EE2D01ACD90056333C /* LoanPlus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoanPlus.entitlements; sourceTree = "<group>"; };
+		C9F608392CF878B200511E71 /* StayAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayAlertView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F45F9D42CF42211004F43E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4436F0B24942FB9B00F93D /* Pods_LoanPlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E50A172CF5BC5C00DD3ED4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				01E50A182CF5BC7300DD3ED4 /* View */,
+				3F45FA3E2CF4545A004F43E6 /* LoginVC.swift */,
+				011247382CF5D6150033AACB /* LoginCodeVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		01E50A182CF5BC7300DD3ED4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01E50A192CF5C33800DD3ED4 /* PhoneNoInputView.swift */,
+				01124B3D2CF6F9B90033AACB /* CaptchaButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		317FFC002CF48AE000641C23 /* HomePart */ = {
+			isa = PBXGroup;
+			children = (
+				31E40E4F2D004F2000748517 /* HomeVC.swift */,
+				31C270F32CF87B7C00735A43 /* Model */,
+				31AC24282CF5B7A800C2D186 /* View */,
+			);
+			path = HomePart;
+			sourceTree = "<group>";
+		};
+		31AC24282CF5B7A800C2D186 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31AC24292CF5B7C400C2D186 /* GradientButton.swift */,
+				31AC242B2CF5BB9600C2D186 /* GradidentLabel.swift */,
+				31AC242D2CF5C82F00C2D186 /* HomeLargeCardView.swift */,
+				31AC24312CF5D36D00C2D186 /* HomeLoanMorePlusView.swift */,
+				31AC24352CF7037E00C2D186 /* HomeLoanMorePlusViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31C270F32CF87B7C00735A43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31E40E4A2D0044A700748517 /* WebResources */ = {
+			isa = PBXGroup;
+			children = (
+				31E40E4B2D0045E500748517 /* ProWebViewController.swift */,
+			);
+			path = WebResources;
+			sourceTree = "<group>";
+		};
+		31E9ADFD2CFDAE9C0020C6EA /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				31A9D3912CFEA76F00F1CDCF /* LoanPlusOrderVC.swift */,
+				31A9D3932CFEA78000F1CDCF /* LoanPlusOrderChildVC.swift */,
+				31C00B302CFEB43B00255E4D /* LoanOerderCell.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		3F45F9CE2CF42211004F43E6 = {
+			isa = PBXGroup;
+			children = (
+				3F45FA232CF43BC5004F43E6 /* LoanPlus */,
+				3F45F9D82CF42211004F43E6 /* Products */,
+				DA17D1C3A5584A6EB9E71F70 /* Pods */,
+				918A24810EAA5D83D3A9151A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F45F9D82CF42211004F43E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F45F9D72CF42211004F43E6 /* LoanPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F45FA132CF43BC5004F43E6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C99CB6832CFEBA9500D44CAF /* View */,
+				3F45FA2E2CF43BFC004F43E6 /* NavController.swift */,
+				3F45FA462CF459DE004F43E6 /* BaseVC.swift */,
+				C91336192CF80F6F0063AF5B /* CertBaseVC.swift */,
+				3F45FA322CF43CDE004F43E6 /* TabBarController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3F45FA152CF43BC5004F43E6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3F45FA142CF43BC5004F43E6 /* RuteManager.swift */,
+				3F45FA382CF43E0A004F43E6 /* ThirdManager.swift */,
+				3F45FA3A2CF4534C004F43E6 /* NetworkManager.swift */,
+				3F45FA402CF4548E004F43E6 /* CacheManager.swift */,
+				01E50A0D2CF4781500DD3ED4 /* LPTrackManager.swift */,
+				01E50A0F2CF479E500DD3ED4 /* DeviceManager.swift */,
+				C913360C2CF477ED0063AF5B /* ApplyManager.swift */,
+				01E50A132CF48A8E00DD3ED4 /* LPLocationManager.swift */,
+				01E50A152CF496B400DD3ED4 /* UserManager.swift */,
+				3F5297542D005BCD00F6032B /* Untitled.swift */,
+				3FD4FB452CF975360097C61C /* PhotoSelector.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3F45FA162CF43BC5004F43E6 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				C9C505DF2D004EF70056333C /* Mine */,
+				01E50A172CF5BC5C00DD3ED4 /* Login */,
+				317FFC002CF48AE000641C23 /* HomePart */,
+				31E40E4A2D0044A700748517 /* WebResources */,
+				C91336092CF475AE0063AF5B /* Auth */,
+				31E9ADFD2CFDAE9C0020C6EA /* Order */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		3F45FA192CF43BC5004F43E6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C9C505EA2D006B290056333C /* launch_img.png */,
+				C9C505E82D006B190056333C /* appicon.png */,
+				3F45FA172CF43BC5004F43E6 /* Define.swift */,
+				3F45FA182CF43BC5004F43E6 /* Extension.swift */,
+				01E50A112CF47A9600DD3ED4 /* KeyChainTools.swift */,
+				3FD4FB522CFE01110097C61C /* LoanPlus-Bridging-Header.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3F45FA232CF43BC5004F43E6 /* LoanPlus */ = {
+			isa = PBXGroup;
+			children = (
+				C9C505EE2D01ACD90056333C /* LoanPlus.entitlements */,
+				3FD4FB392CF71C7B0097C61C /* Resources */,
+				3F45FA132CF43BC5004F43E6 /* Base */,
+				3F45FA152CF43BC5004F43E6 /* Manager */,
+				3F45FA162CF43BC5004F43E6 /* Page */,
+				3F45FA192CF43BC5004F43E6 /* Tool */,
+				3F45FA1A2CF43BC5004F43E6 /* AppDelegate.swift */,
+				3F45FA1C2CF43BC5004F43E6 /* Info.plist */,
+				3F45FA1B2CF43BC5004F43E6 /* Assets.xcassets */,
+				3F45FA1E2CF43BC5004F43E6 /* LaunchScreen.storyboard */,
+				3F45FA222CF43BC5004F43E6 /* ViewController.swift */,
+			);
+			path = LoanPlus;
+			sourceTree = "<group>";
+		};
+		3F52974A2CFEA22800F6032B /* PersonInfo */ = {
+			isa = PBXGroup;
+			children = (
+				3F52974B2CFEA25400F6032B /* PersonInfoVC.swift */,
+				3F52974D2CFEB85600F6032B /* InfoItemView.swift */,
+				3F52974F2CFF0C5400F6032B /* DateAlert.swift */,
+			);
+			path = PersonInfo;
+			sourceTree = "<group>";
+		};
+		3F5297512CFFF70900F6032B /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				3F5297522CFFF73700F6032B /* JobInfoVC.swift */,
+			);
+			path = Job;
+			sourceTree = "<group>";
+		};
+		3FD4FB362CF703F90097C61C /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				3FD4FB372CF704360097C61C /* SurveyVC.swift */,
+			);
+			path = Survey;
+			sourceTree = "<group>";
+		};
+		3FD4FB392CF71C7B0097C61C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FD4FB3A2CF71C9B0097C61C /* D-DIN-PRO-400-Regular.otf */,
+				3FD4FB3B2CF71C9B0097C61C /* D-DIN-PRO-600-SemiBold.otf */,
+				3FD4FB3C2CF71C9B0097C61C /* D-DIN-PRO-700-Bold.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FD4FB422CF963260097C61C /* IDCard */ = {
+			isa = PBXGroup;
+			children = (
+				3FD4FB432CF963870097C61C /* IDCardVC.swift */,
+				3FD4FB472CF9C6E80097C61C /* CustomAlert.swift */,
+				3FD4FB4B2CFDA5BA0097C61C /* IconButton.swift */,
+				3FD4FB4F2CFDC2FE0097C61C /* CardInfoAlertVC.swift */,
+			);
+			path = IDCard;
+			sourceTree = "<group>";
+		};
+		918A24810EAA5D83D3A9151A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C53B2E9846A486A7F37FF0 /* Pods_LoanPlus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C91336092CF475AE0063AF5B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C91336172CF80D270063AF5B /* Detail */,
+				3FD4FB362CF703F90097C61C /* Survey */,
+				3FD4FB422CF963260097C61C /* IDCard */,
+				3F52974A2CFEA22800F6032B /* PersonInfo */,
+				3F5297512CFFF70900F6032B /* Job */,
+				C99CB6842CFEE06C00D44CAF /* Contact */,
+				C9B4A65A2CF9A7CC0012B8F8 /* Bank */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C91336172CF80D270063AF5B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C913360A2CF4761E0063AF5B /* ProductDetailVC.swift */,
+				C913360F2CF5B1D10063AF5B /* ProductDetailCell.swift */,
+				C91336132CF5B9E90063AF5B /* ProductDetailFootView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C99CB6832CFEBA9500D44CAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F45FA442CF457C0004F43E6 /* Toast.swift */,
+				C9F608392CF878B200511E71 /* StayAlertView.swift */,
+				C9C442792CFDA77400B04541 /* SingleSelectView.swift */,
+				C99CB6812CFDAFA700D44CAF /* SelectCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C99CB6842CFEE06C00D44CAF /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				C99CB6852CFEE0C400D44CAF /* ContactInfoVC.swift */,
+				C99CB6872CFEE22F00D44CAF /* ContactCell.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		C9B4A65A2CF9A7CC0012B8F8 /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				C9B4A65D2CF9A81C0012B8F8 /* BankInfoVC.swift */,
+				C9C442772CFD85ED00B04541 /* ClabeAlertView.swift */,
+				C9C505EC2D006F340056333C /* BankConfirmView.swift */,
+			);
+			path = Bank;
+			sourceTree = "<group>";
+		};
+		C9C505DF2D004EF70056333C /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C9C505E42D0050050056333C /* UserVC.swift */,
+				C9C505E02D004F1C0056333C /* SettingVC.swift */,
+				C9C505E62D0059AD0056333C /* LogOutAlertV.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		DA17D1C3A5584A6EB9E71F70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A890D7412EAD651FC88DB87 /* Pods-LoanPlus.debug.xcconfig */,
+				A600A698C8D6637BC95C352A /* Pods-LoanPlus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F45F9D62CF42211004F43E6 /* LoanPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F45F9EA2CF42212004F43E6 /* Build configuration list for PBXNativeTarget "LoanPlus" */;
+			buildPhases = (
+				F20EA955305F1DDF7E47E289 /* [CP] Check Pods Manifest.lock */,
+				3F45F9D32CF42211004F43E6 /* Sources */,
+				3F45F9D42CF42211004F43E6 /* Frameworks */,
+				3F45F9D52CF42211004F43E6 /* Resources */,
+				3234C62AD039E16C94ED377C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoanPlus;
+			productName = LoanPlus;
+			productReference = 3F45F9D72CF42211004F43E6 /* LoanPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F45F9CF2CF42211004F43E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3F45F9D62CF42211004F43E6 = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+					};
+				};
+			};
+			buildConfigurationList = 3F45F9D22CF42211004F43E6 /* Build configuration list for PBXProject "LoanPlus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F45F9CE2CF42211004F43E6;
+			productRefGroup = 3F45F9D82CF42211004F43E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F45F9D62CF42211004F43E6 /* LoanPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F45F9D52CF42211004F43E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD4FB3D2CF71C9B0097C61C /* D-DIN-PRO-600-SemiBold.otf in Resources */,
+				3FD4FB3E2CF71C9B0097C61C /* D-DIN-PRO-400-Regular.otf in Resources */,
+				3FD4FB3F2CF71C9B0097C61C /* D-DIN-PRO-700-Bold.otf in Resources */,
+				3F45FA2A2CF43BC5004F43E6 /* Assets.xcassets in Resources */,
+				C9C505E92D006B190056333C /* appicon.png in Resources */,
+				C9C505EB2D006B290056333C /* launch_img.png in Resources */,
+				3F45FA2C2CF43BC5004F43E6 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3234C62AD039E16C94ED377C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoanPlus/Pods-LoanPlus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoanPlus/Pods-LoanPlus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoanPlus/Pods-LoanPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F20EA955305F1DDF7E47E289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoanPlus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F45F9D32CF42211004F43E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F45FA242CF43BC5004F43E6 /* RuteManager.swift in Sources */,
+				3F45FA452CF457C0004F43E6 /* Toast.swift in Sources */,
+				C99CB6862CFEE0C400D44CAF /* ContactInfoVC.swift in Sources */,
+				01E50A0E2CF4781500DD3ED4 /* LPTrackManager.swift in Sources */,
+				31AC242C2CF5BB9600C2D186 /* GradidentLabel.swift in Sources */,
+				3F45FA332CF43CDE004F43E6 /* TabBarController.swift in Sources */,
+				3F45FA252CF43BC5004F43E6 /* Define.swift in Sources */,
+				01E50A162CF496B400DD3ED4 /* UserManager.swift in Sources */,
+				3FD4FB382CF704360097C61C /* SurveyVC.swift in Sources */,
+				C9C505E72D0059AD0056333C /* LogOutAlertV.swift in Sources */,
+				01E50A102CF479E500DD3ED4 /* DeviceManager.swift in Sources */,
+				C91336102CF5B1D10063AF5B /* ProductDetailCell.swift in Sources */,
+				C9C4427A2CFDA77400B04541 /* SingleSelectView.swift in Sources */,
+				C99CB6822CFDAFA700D44CAF /* SelectCell.swift in Sources */,
+				3FD4FB502CFDC2FE0097C61C /* CardInfoAlertVC.swift in Sources */,
+				3F45FA3B2CF4534C004F43E6 /* NetworkManager.swift in Sources */,
+				31AC24372CF7037E00C2D186 /* HomeLoanMorePlusViewCell.swift in Sources */,
+				3F45FA472CF459DE004F43E6 /* BaseVC.swift in Sources */,
+				C9F6083A2CF878B200511E71 /* StayAlertView.swift in Sources */,
+				01E50A1A2CF5C33800DD3ED4 /* PhoneNoInputView.swift in Sources */,
+				31E40E502D004F2000748517 /* HomeVC.swift in Sources */,
+				3F52974C2CFEA25400F6032B /* PersonInfoVC.swift in Sources */,
+				31E40E4C2D0045E500748517 /* ProWebViewController.swift in Sources */,
+				3FD4FB442CF963870097C61C /* IDCardVC.swift in Sources */,
+				C913360B2CF4761E0063AF5B /* ProductDetailVC.swift in Sources */,
+				3F45FA412CF4548E004F43E6 /* CacheManager.swift in Sources */,
+				C99CB6882CFEE22F00D44CAF /* ContactCell.swift in Sources */,
+				C9C505ED2D006F340056333C /* BankConfirmView.swift in Sources */,
+				C9B4A65E2CF9A81C0012B8F8 /* BankInfoVC.swift in Sources */,
+				3F5297532CFFF73700F6032B /* JobInfoVC.swift in Sources */,
+				01E50A142CF48A8E00DD3ED4 /* LPLocationManager.swift in Sources */,
+				31A9D3922CFEA76F00F1CDCF /* LoanPlusOrderVC.swift in Sources */,
+				C9C505E52D0050050056333C /* UserVC.swift in Sources */,
+				3F45FA392CF43E15004F43E6 /* ThirdManager.swift in Sources */,
+				3FD4FB4C2CFDA5BA0097C61C /* IconButton.swift in Sources */,
+				011247392CF5D6150033AACB /* LoginCodeVC.swift in Sources */,
+				3F45FA262CF43BC5004F43E6 /* Extension.swift in Sources */,
+				3F45FA3F2CF4545A004F43E6 /* LoginVC.swift in Sources */,
+				3F52974E2CFEB85600F6032B /* InfoItemView.swift in Sources */,
+				01124B3E2CF6F9B90033AACB /* CaptchaButton.swift in Sources */,
+				3FD4FB482CF9C6E80097C61C /* CustomAlert.swift in Sources */,
+				3F5297552D005BD100F6032B /* Untitled.swift in Sources */,
+				C913361A2CF80F6F0063AF5B /* CertBaseVC.swift in Sources */,
+				01E50A122CF47A9600DD3ED4 /* KeyChainTools.swift in Sources */,
+				C913360D2CF477ED0063AF5B /* ApplyManager.swift in Sources */,
+				31A9D3942CFEA78000F1CDCF /* LoanPlusOrderChildVC.swift in Sources */,
+				31AC242E2CF5C82F00C2D186 /* HomeLargeCardView.swift in Sources */,
+				3F45FA392CF43E15004F43E6 /* ThirdManager.swift in Sources */,
+				3F45FA262CF43BC5004F43E6 /* Extension.swift in Sources */,
+				3F45FA3F2CF4545A004F43E6 /* LoginVC.swift in Sources */,
+				3FD4FB462CF975360097C61C /* PhotoSelector.swift in Sources */,
+				C9C442782CFD85ED00B04541 /* ClabeAlertView.swift in Sources */,
+				31AC242A2CF5B7C400C2D186 /* GradientButton.swift in Sources */,
+				C9C505E12D004F1C0056333C /* SettingVC.swift in Sources */,
+				31C00B312CFEB43B00255E4D /* LoanOerderCell.swift in Sources */,
+				3F45FA272CF43BC5004F43E6 /* AppDelegate.swift in Sources */,
+				C91336142CF5B9E90063AF5B /* ProductDetailFootView.swift in Sources */,
+				3F45FA2F2CF43BFC004F43E6 /* NavController.swift in Sources */,
+				31AC24322CF5D36D00C2D186 /* HomeLoanMorePlusView.swift in Sources */,
+				3F45FA292CF43BC5004F43E6 /* ViewController.swift in Sources */,
+				3F5297502CFF0C5400F6032B /* DateAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F45FA1E2CF43BC5004F43E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F45FA1D2CF43BC5004F43E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F45F9EB2CF42212004F43E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A890D7412EAD651FC88DB87 /* Pods-LoanPlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LoanPlus/LoanPlus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9XF58S4MW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FUSE_BUILD_SCRIPT_PHASES = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoanPlus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VALES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se requiere permiso para la cámara para completar la verificación de identidad.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "requiere permisos de ubicación, para mantener su cuenta segura.";
+				INFOPLIST_KEY_NSLocationUsageDescription = " requiere permisos de ubicación, para mantener su cuenta segura.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "requiere permisos de ubicación, para mantener su cuenta segura.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = " requiere permisos IDFA le proporcionará un mejor servicio personalizado y contenido publicitario.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksmfafa111.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LoanPlus/Tool/LoanPlus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3F45F9EC2CF42212004F43E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A600A698C8D6637BC95C352A /* Pods-LoanPlus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LoanPlus/LoanPlus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9XF58S4MW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FUSE_BUILD_SCRIPT_PHASES = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoanPlus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VALES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se requiere permiso para la cámara para completar la verificación de identidad.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "requiere permisos de ubicación, para mantener su cuenta segura.";
+				INFOPLIST_KEY_NSLocationUsageDescription = " requiere permisos de ubicación, para mantener su cuenta segura.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "requiere permisos de ubicación, para mantener su cuenta segura.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = " requiere permisos IDFA le proporcionará un mejor servicio personalizado y contenido publicitario.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksmfafa111.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LoanPlus/Tool/LoanPlus-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3F45F9ED2CF42212004F43E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F45F9EE2CF42212004F43E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F45F9D22CF42211004F43E6 /* Build configuration list for PBXProject "LoanPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F45F9ED2CF42212004F43E6 /* Debug */,
+				3F45F9EE2CF42212004F43E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F45F9EA2CF42212004F43E6 /* Build configuration list for PBXNativeTarget "LoanPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F45F9EB2CF42212004F43E6 /* Debug */,
+				3F45F9EC2CF42212004F43E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F45F9CF2CF42211004F43E6 /* Project object */;
+}
